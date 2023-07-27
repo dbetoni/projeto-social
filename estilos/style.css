@@ -12,11 +12,20 @@ html, body{
     background-color: black;
 }
 
-main{
-    height: 100vh;
-    position: relative;
-    background-color: green;
+
+
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
 
 section#telefone{
     position: absolute;
@@ -25,7 +34,15 @@ section#telefone{
     transform: translate(-50%, -50%);/* Esta configuração é feita usando o position relativo no main, e depois estas configuraços no outro objeto que no caso é a
                                         section, fazendo ela ficar centralizada */ 
 
-    height: 500px;
-    width: 500px;
-    background-color: blue;
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
